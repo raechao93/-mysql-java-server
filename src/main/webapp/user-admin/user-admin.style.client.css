@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.b {
+    color: chocolate;
+    float: right;
+}
+
+
+a, a:hover{
+    color: chocolate;
+}
+
+@media screen and (max-width: 768px) {
+
+    #div-mobile { display: block; }
+    #div-desktop { display: none; }
+
+}
+
+.tableFixHead          { overflow-y: auto; height: 600px; }
+.tableFixHead thead th { position: sticky; top: 0; }
+
+table  { border-collapse: collapse; width: 100%; table-layout: auto; }
+th, td { padding: 8px 16px; }
+th     { background: antiquewhite; }

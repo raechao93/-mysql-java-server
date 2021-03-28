@@ -1,0 +1,47 @@
+.wbdv-sticky-nav-bar1 {
+    background-color: antiquewhite;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.wbdv-sticky-nav-bar2 {
+    background-color: antiquewhite;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.wbdv-sticky-nav-bar3 {
+    background: antiquewhite;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.container{
+    padding-top:58px;
+}
+
+.color-main {
+    color: chocolate;
+}
+
+.color-accent1 {
+    color: burlywood;
+}
+
+@media screen and (max-width: 768px){
+    #div-desktop {display: none;}
+    #div-mobile{display: block;}
+}
+
+.tableFixHead          { overflow-y: auto; height: 600px; }
+.tableFixHead thead th { position: sticky; top: 0; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; table-layout: auto; }
+th, td { padding: 8px 16px; }
+th     { background:darksalmon;color: saddlebrown; }
+
